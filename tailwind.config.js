@@ -11,6 +11,7 @@ module.exports = {
         'gradient-bg': "url('/assets/images/png/card-bg.png')",
         'gateway-bg': "url('/assets/images/png/empowerment-img.png')",
         'explore': "url('/assets/images/png/gateway_img-1.png')",
+        'footer_bg': "url('/assets/images/png/footer_bg.png')",
       },
       backgroundSize: {
         'full': "100% 100%;"

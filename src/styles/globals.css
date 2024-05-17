@@ -32,4 +32,11 @@
     transform: skewY(-2deg);
   }
 }
-
+.glass_effect::before {
+  content: "";
+  background: rgb(255, 255, 255, 0.4);
+  transform: skew(45deg);
+}
+.glass_effect:hover::before {
+  left: 150%;
+}

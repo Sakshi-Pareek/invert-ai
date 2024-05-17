@@ -4,7 +4,13 @@ import { Fund, Setting } from "./Icons";
 export default function Traders() {
   return (
     <>
-      <div>
+      <div className="relative lg:pb-48 pb-20">
+        <Image
+          src="/assets/images/png/squar_layer.png"
+          width={765}
+          height={986}
+          className="absolute left-0 -top-44 rotate-180 z-10"
+        />
         <div className="container lg:max-w-[1164px] px-3 mx-auto relative z-10">
           <div className="h-[330px] w-[330px] rounded-[50%] opacity-30 bg-[#AB68FF] absolute -right-40 blur-[120px] z-0"></div>
           <div className="h-[330px] w-[330px] rounded-[50%] opacity-30 bg-[#AB68FF] absolute -left-10 top-20 blur-[120px] z-0"></div>
@@ -44,9 +50,9 @@ export default function Traders() {
                 </div>
               </div>
               <div className="max-lg:text-center">
-              <button className="font-semibold text-base text-white py-3.5 px-5 bg-[#AB68FF] rounded-[38px] shadow-[0px_0px_6px_0px_rgba(171,104,255,0.6)] common_btn">
-                Register for Free
-              </button>
+                <button className="font-semibold text-base text-white py-3.5 px-5 bg-[#AB68FF] rounded-[38px] shadow-[0px_0px_6px_0px_rgba(171,104,255,0.6)] common_btn">
+                  Register for Free
+                </button>
               </div>
             </div>
             <div className="lg:w-[49%] mx-auto">
@@ -55,7 +61,7 @@ export default function Traders() {
                   src="/assets/images/png/power.png"
                   width={128}
                   height={128}
-                  className="absolute left-0  bottom-0 max-sm:w-[100px]"
+                  className="absolute left-0 bottom-0 max-sm:w-[100px]"
                 />
                 <Image
                   src="/assets/images/png/captial.png"

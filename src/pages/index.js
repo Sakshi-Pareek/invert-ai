@@ -1,5 +1,6 @@
 import Gateway from "@/components/Gateway";
 import Header from "@/components/Header";
+import Highlights from "@/components/Highlights";
 import Traders from "@/components/Traders";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Gateway />
         <Traders />
+        <Highlights />
       </main>
     </>
   );

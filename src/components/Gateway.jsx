@@ -19,7 +19,7 @@ export default function Gateway() {
             </span>
           </h2>
           <div className="flex flex-wrap justify-between gap-5">
-            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px]">
+            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px] cursor-pointer glass_effect before:w-[20%] before:h-full before:left-[-125%] before:top-0 before:absolute before:z-10 before:duration-1000 before:ease-in-out before:blur-[30px]">
               <Image
                 src="/assets/images/png/vertical_black_layer.png"
                 className="absolute z-[2] top-0 h-full xxl:left-[204px] lg:left-[136px] md:left-[390px] sm:left-[260px] max-sm:hidden"
@@ -50,7 +50,7 @@ export default function Gateway() {
                 />
               </div>
             </div>
-            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px]">
+            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px] glass_effect cursor-pointer before:w-[20%] before:h-full before:left-[-125%] before:top-0 before:absolute before:z-10 before:duration-1000 before:ease-in-out before:blur-[30px]">
               <Image
                 src="/assets/images/png/vertical_black_layer.png"
                 className="absolute z-[2] top-0 h-full xxl:left-[204px] lg:left-[136px] md:left-[390px] sm:left-[260px] max-sm:hidden"
@@ -81,7 +81,7 @@ export default function Gateway() {
                 />
               </div>
             </div>
-            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px] flex flex-col justify-center">
+            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px] flex flex-col justify-center glass_effect cursor-pointer before:w-[20%] before:h-full before:left-[-125%] before:top-0 before:absolute before:z-10 before:duration-1000 before:ease-in-out before:blur-[30px]">
               <Image
                 src="/assets/images/png/vertical_black_layer.png"
                 className="absolute z-[2] top-0 h-full xxl:left-[204px] lg:left-[136px] md:left-[390px] sm:left-[260px] max-sm:hidden"
@@ -102,7 +102,7 @@ export default function Gateway() {
                 long-term investing, and everything in between.
               </p>
             </div>
-            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-10 min-h-[225px] flex flex-col justify-center">
+            <div className="lg:w-[49%] border-2 border-l-[12px] border-l-[#AB68FF] border-solid border-[#ab68ff4d] rounded-[24px] bg-[#110B26] px-4 py-7 relative overflow-hidden z-20 min-h-[225px] flex flex-col justify-center glass_effect cursor-pointer before:w-[20%] before:h-full before:left-[-125%] before:top-0 before:absolute before:z-10 before:duration-1000 before:ease-in-out before:blur-[30px]">
               <Image
                 src="/assets/images/png/vertical_black_layer.png"
                 className="absolute z-[2] top-0 h-full xxl:left-[204px] lg:left-[136px] md:left-[390px] sm:left-[260px] max-sm:hidden"
