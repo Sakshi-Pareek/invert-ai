@@ -40,3 +40,15 @@
 .glass_effect:hover::before {
   left: 150%;
 }
+.updown_animation {
+  animation: mover 1s infinite alternate;
+  box-shadow: 0px 5px 10px 0px #ffffff;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-7px);
+  }
+}
