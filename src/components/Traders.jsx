@@ -83,14 +83,15 @@ export default function Traders() {
                   height={128}
                   className="absolute right-0 top-0 max-sm:w-[100px] max-xs:w-[80px]"
                 />
-                <div className="sm:w-[410px] sm:h-[410px] w-[270px] h-[270px] rounded-[50%] border-2 border-dashed border-[#ffffff33] flex justify-center items-center">
-                  <div className="sm:w-[357px] w-[230px] sm:h-[357px] h-[230px] rounded-[50%] border-2 border-dashed border-[#ffffff4d] flex justify-center items-center animated_border">
+                <div className="sm:w-[230px] w-[140px] sm:h-[230px] h-[140px] rounded-[50%] bg-[#AB68FF] shadow-[0px_0px_10px_0px_rgba(171,104,255,0.6)] flex justify-center items-center px-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                  <p className="font-bold text-white sm:text-[32px] text-[18px] text-center">
+                    Why 95% of Traders Fail
+                  </p>
+                </div>
+                <div className="sm:w-[410px] sm:h-[410px] w-[270px] h-[270px] rounded-[50%] border-2 border-dashed border-[#ffffff33] flex justify-center items-center animate-spin">
+                  <div className="sm:w-[357px] w-[230px] sm:h-[357px] h-[230px] rounded-[50%] border-2 border-dashed border-[#ffffff4d] flex justify-center items-center">
                     <div className="sm:h-[272px] h-[170px] sm:w-[272px] w-[170px] flex justify-center items-center border-2 border-solid border-[#ab68ff4d] rounded-[50%]">
-                      <div className="sm:w-[230px] w-[140px] sm:h-[230px] h-[140px] rounded-[50%] bg-[#AB68FF] shadow-[0px_0px_10px_0px_rgba(171,104,255,0.6)] flex justify-center items-center px-6">
-                        <p className="font-bold text-white sm:text-[32px] text-[18px] text-center">
-                          Why 95% of Traders Fail
-                        </p>
-                      </div>
+                      <div className="sm:h-[272px] h-[170px] sm:w-[272px] w-[170px] flex justify-center items-center border-2 border-solid border-[#ab68ff4d] rounded-[50%] animate-ping"></div>
                     </div>
                   </div>
                 </div>
